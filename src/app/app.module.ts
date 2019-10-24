@@ -4,7 +4,6 @@ import { NgModule } from '@angular/core';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { NavbarComponent } from './navbar/navbar.component';
-import { HeroComponent } from './hero/hero.component';
 import { HomeComponent } from './home/home.component';
 import { MissionComponent } from './mission/mission.component';
 import { ValueComponent } from './value/value.component';
@@ -15,7 +14,6 @@ import { FooterComponent } from './footer/footer.component';
   declarations: [
     AppComponent,
     NavbarComponent,
-    HeroComponent,
     HomeComponent,
     MissionComponent,
     ValueComponent,

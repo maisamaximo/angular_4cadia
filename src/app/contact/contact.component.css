@@ -1,3 +1,82 @@
 .contact {
-    height: 80vh;
+  height: 80vh;
+  font-family: "Noto Sans", sans-serif;
+}
+
+.btn-send {
+  margin-top: 20px;
+  color: #071d49;
+  background-color: #ebb30c;
+  font-weight: 800;
+  border-radius: 50px;
+  width: 20vw;
+  height: 6.5vh;
+}
+
+.text-contact {
+  color: #fff;
+  font-size: 45px;
+}
+
+.input_label {
+  color: #fff;
+  font-size: 18px;
+  padding-top: 25px;
+}
+
+input,
+textarea {
+  padding-left: 0 !important;
+  font-size: 18px;
+  padding: 0.4em 0.6em;
+  border: 0;
+  border-bottom: 1px #ffffff solid;
+  background-color: transparent;
+}
+
+.input::placeholder {
+  color: rgb(203, 223, 253);
+}
+
+div.contact-content {
+  width: 65%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.contact-section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 100%;
+  height: 80vh;
+}
+
+.contact-section p {
+  font-size: 45px;
+  font-family: "Gilroy-Bold", Arial, Helvetica, sans-serif;
+  letter-spacing: 0;
+  color: #f5efff;
+  opacity: 1;
+}
+
+.text-input {
+  width: 100%;
+  margin-bottom: 30px;
+}
+
+.text-input input {
+  width: 100%;
+}
+
+.text-input--col2 {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+.text-input--col2 input {
+  width: 45%;
 }

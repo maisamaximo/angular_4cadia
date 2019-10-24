@@ -1,43 +1,29 @@
 <nav class="contact bg-4cadia-blue">
-<!-- Material form contact -->
-<div class="card">
+  <div id="contact" class="contact-section">
 
-    <h5 class="card-header info-color white-text text-center py-4">
-        <strong>Contact us</strong>
-    </h5>
+    <div class="contact-content">
 
-    <!--Card content-->
-    <div class="card-body px-lg-5 pt-0">
+      <!-- Main Label -->
+      <h5 class="text-contact">
+        <strong>CONTACT US</strong>
+      </h5>
 
-        <!-- Form -->
-        <form class="text-center" style="color: #757575;" action="#!">
+      <!-- Personal Information: Name and Email -->
+      <label class="input_label">Personal Information:</label>
 
-            <!-- Name -->
-            <div class="md-form mt-3">                
-                <label for="materialContactFormName">Name</label>
-                <input type="text" id="materialContactFormName" class="form-control">
-            </div>
+      <div class="text-input--col2">
+        <input class="input" type="text" placeholder="Full Name" />
+        <input class="input" type="text" placeholder="Email" />
+      </div>
 
-            <!-- E-mail -->
-            <div class="md-form">
-                <label for="materialContactFormEmail">E-mail</label>
-                <input type="email" id="materialContactFormEmail" class="form-control">
-            </div>
+      <!-- Message -->
+      <label class="input_label">Message:</label>
+      <div class="text-input">
+        <input class="input" type="text" placeholder="Type your message" />
+      </div>
 
-            <!--Message-->
-            <div class="md-form">
-                <label for="materialContactFormMessage">Message</label>
-                <textarea id="materialContactFormMessage" class="form-control md-textarea" rows="3"></textarea>
-            </div>
-
-            <!-- Send button -->
-            <button class="btn btn-outline-info btn-rounded btn-block z-depth-0 my-4 waves-effect" type="submit">Send</button>
-
-        </form>
-        <!-- Form -->
-
+      <!-- Send button -->
+      <button class="btn btn-send btn-rounded btn-block waves-effect" type="submit">Send</button>
     </div>
-
-</div>
-<!-- Material form contact -->
+  </div>
 </nav>

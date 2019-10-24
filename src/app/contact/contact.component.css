@@ -26,6 +26,7 @@
 
 input,
 textarea {
+  color: rgb(203, 223, 253);
   padding-left: 0 !important;
   font-size: 18px;
   padding: 0.4em 0.6em;
@@ -34,8 +35,14 @@ textarea {
   background-color: transparent;
 }
 
+input:focus,
+textarea:focus {
+  outline: none;
+}
+
 .input::placeholder {
   color: rgb(203, 223, 253);
+  opacity: 50%;
 }
 
 div.contact-content {

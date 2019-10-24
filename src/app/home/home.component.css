@@ -1,3 +1,18 @@
 .home {
-    height: 100vh;
+  height: 100vh;
+  font-family: "Noto Sans", sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.home h1 {
+  color: #fff;
+  font-size: 120px;
+  font-weight: 400;
+}
+
+.home h1 strong {
+  font-weight: 800;
 }

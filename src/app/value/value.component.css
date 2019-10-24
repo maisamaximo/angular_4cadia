@@ -1,3 +1,32 @@
 .value {
-    height: 45vh;
+  height: 45vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.title-value {
+  color: #FFF;
+  font-size: 68px;
+  font-weight: 800;
+  letter-spacing: -1.02px;
+  opacity: 1;
+  margin-bottom: 25px;
+  padding: 0 30px;
+}
+
+.card-value {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+}
+
+.card-body {
+  color: #fff;
+  background-color: #071d49;
+  margin: 10px;
+  height: 8vh;
+  width: 9rem;
+  text-align: center;
 }

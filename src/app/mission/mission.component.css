@@ -1,3 +1,35 @@
 .mission {
-    height: 45vh;
+  height: 45vh;
+  background-color: #FFF;
+  font-family: 'Noto Sans', sans-serif;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+
+}
+
+.mission-section {
+    top: 1096px;
+    left: 0px;
+    width: 100%;
+    opacity: 1;
+}
+
+.title-mission {
+  color: #0047bb;
+  font-size: 68px;
+  font-weight: 800;
+  letter-spacing: -1.02px;
+  opacity: 1;
+  margin-bottom: 25px;
+  padding: 0 30px;
+}
+
+.text-our-mission {
+  color: #071d49;
+  font-size: 30px;
+  letter-spacing: -0.45px;
+  padding: 0 30px;
 }

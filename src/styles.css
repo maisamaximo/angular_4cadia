@@ -1,2 +1,15 @@
 /* You can add global styles to this file, and also import other style files */
 @import '~bootstrap/dist/css/bootstrap.min.css';
+
+.bg-4cadia-lightblue {
+    background: #6AD1E3;
+}
+.bg-4cadia-mediumblue {
+    background: #009CDE;
+}
+.bg-4cadia-blue {
+    background: #0047BB;
+}
+.bg-4cadia-darkblue {
+    background: #071D49;
+}
